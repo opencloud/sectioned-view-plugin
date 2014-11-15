@@ -38,7 +38,7 @@ THE SOFTWARE.
     <h2>${section.name}</h2>
   </j:if>
   <div>
-    <table>
+    <table class="sectioned-view-table">
       <tr>
         <j:forEach var="viewColumn" items="${section.nestedViewColumns}">
           <td>
